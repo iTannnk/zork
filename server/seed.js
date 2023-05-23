@@ -7,22 +7,27 @@ const Zork = require("./models/zork");
 
 async function seed() {
   await Zork.create({
-    id: 1,
-    message: "Welcome to Zork!",
+    zork: 1,
+    message:
+      "One sunday morning. The warm sun came up and POP! Out of the egg came a tiny and very hungry catterpillar",
     option1:
-      "You awake in a field there is a house to your north and a forest to your west, there is also a small mailbox",
-    option2: "You go to the house in the north",
-    option3: "You check the mailbox",
+      "Next to the caterpillar he finds his dead mother he proceed to eat his mother's body as his only source of sustanance",
+    option2:
+      "He refuses to be a cannibal to his own mother and wanders out into the wild!",
+    option3: "He is lazy to do both and just dies",
     outcome1: 2,
     outcome2: 3,
     outcome3: 4,
   });
   await Zork.create({
-    id: 1,
-    message: "You win the game",
-    option1: "blah blah blah yiddy yidday yah! -chris",
-    option2: "hippedity skip doo",
-    option3: "Snoopy doggy dog",
+    zork: 2,
+    message:
+      "The caterpillar after finishing his first meal sleeps it off as its quite heavy and double in size when he wakes up!",
+    option1:
+      "With his new size he feels more confident and wonders off into the wild",
+    option2: "Just outside his home he spots an apple",
+    option3:
+      "He realised he ate too much and his bowels imploded due to a lack of fibre rip",
     outcome1: 2,
     outcome2: 3,
     outcome3: 4,

@@ -3,3 +3,33 @@
   max-width: 1024px;
   margin: 0 auto;
 }
+
+.header {
+  padding: 2rem 0 1rem 0;
+}
+
+.header-container {
+  background-color: var(--wht);
+  color: var(--blk);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  font-weight: 700;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-link {
+  color: var(--blk);
+}
+
+.header-link:hover {
+  color: var(--grn);
+}
+
+.link-divider {
+  display: inline-block;
+  margin: 0 0.5rem;
+}

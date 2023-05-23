@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const zorkSchema = new Schema({
-  id: Number,
+  zork: Number,
   message: String,
   option1: String,
   option2: String,

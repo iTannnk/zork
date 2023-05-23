@@ -1,12 +1,12 @@
 html {
   scroll-behavior: smooth;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "DotGothic16", sans-serif;
 }
 
 :root {
   --wht: #f8f8f8;
   --blk: #28282b;
+  --grn: #00ff41;
 }
 
 * {
@@ -21,8 +21,8 @@ body {
   font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.6;
-  color: var(--blk);
-  background-color: var(—wht);
+  color: var(--wht);
+  background-color: var(--blk);
 }
 
 img {
@@ -33,6 +33,15 @@ a,
 button {
   font-family: inherit;
   text-decoration: none;
+}
+
+button {
+  width: 100%;
+  max-width: 600px;
+}
+
+button:hover {
+  color: var(--grn);
 }
 
 li {
