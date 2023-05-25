@@ -65,7 +65,7 @@ export default function Admin() {
           </label>
         </form>
         <h2>
-          <span className="git">&#8594;</span> list_of_all_zorks{" "}
+          <span className="git">&#8594;</span> List_of_all_zorks{" "}
           <span className="git">git:(main)</span> code .
         </h2>
         <div className="zork-list">
