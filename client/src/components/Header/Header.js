@@ -17,6 +17,10 @@ export default function Header() {
             <Link className="header-link" to="/about">
               <li className="header-list-item">About</li>
             </Link>
+            <span className="link-divider">/</span>
+            <Link className="header-link" to="/admin">
+              <li className="header-list-item">Admin</li>
+            </Link>
           </ul>
         </nav>
       </div>

@@ -1,0 +1,8 @@
+.zork-list {
+  max-height: 50vh;
+  overflow-y: scroll;
+  margin-bottom: 50px;
+}
+.git {
+  color: var(--grn);
+}

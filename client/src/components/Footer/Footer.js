@@ -3,7 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="footer-container container">
         <h3>
           The world is your <span className="line-through">oyster</span>{" "}

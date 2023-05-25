@@ -42,6 +42,7 @@ button {
 
 button:hover {
   color: var(--grn);
+  cursor: pointer;
 }
 
 li {

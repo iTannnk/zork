@@ -1,0 +1,9 @@
+.individual-zork {
+  margin-bottom: 1rem;
+}
+.zork-page-link {
+  color: var(--wht);
+}
+.zork-page-link:hover {
+  color: var(--grn);
+}
