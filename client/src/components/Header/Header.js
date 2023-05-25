@@ -7,7 +7,9 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-container container">
-        <h1 className="header-title">ZORK</h1>
+        <Link to="/">
+          <h1 className="header-title">ZORK</h1>
+        </Link>
         <nav className="header-nav">
           <ul className="header-list">
             <Link className="header-link" to="/">
