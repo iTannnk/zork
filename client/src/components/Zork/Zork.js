@@ -32,7 +32,7 @@ export default function Zork({
       {/* <button className="delete-zork" onClick={() => deleteZork(id)}>
         delete zork
       </button> */}
-      <button className="delete-zork">Delete zork</button>
+      <button className="delete-zork">delete zork</button>
     </div>
   );
 }
