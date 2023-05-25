@@ -7,7 +7,7 @@ export default function Home() {
   const [zork, setZork] = useState({
     zork: 1,
     message:
-      "One sunday morning. The warm sun came up and POP! Out of the egg came a tiny and very hungry catterpillar",
+      "One sunday morning. The warm sun came up and POP! Out of the egg came a tiny and very hungry caterpillar",
     option1:
       "Next to the caterpillar he finds his dead mother he proceed to eat his mother's body as his only source of sustanance",
     option2:
