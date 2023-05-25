@@ -2,5 +2,7 @@
   border: 3rem;
 } */
 .div-paragraph-container {
-  border-radius: 3rem;
+  max-height: 50vh;
+  overflow-y: scroll;
+  margin-bottom: 50px;
 }
