@@ -12,14 +12,14 @@ export default function Admin() {
   }, []);
 
   async function getAllZorks() {
-    const API = `https://zork-server.onrender.com:8080/zorks`;
+    const API = `https://zork-server.onrender.com/zorks`;
     const res = await axios.get(API);
     setAllZorks(res.data);
   }
 
   async function deleteZork(id) {
     try {
-      const API = `https://zork-server.onrender.com:8080/zorks/${id}`;
+      const API = `https://zork-server.onrender.com/zorks/${id}`;
       console.log(API);
       await axios.delete(API);
     } catch (error) {

@@ -16,7 +16,7 @@ export default function Zork() {
 
   async function getTheZork() {
     try {
-      const API = `http://localhost:8080/zorks?_id=${id}`;
+      const API = `https://zork-server.onrender.com/zorks?_id=${id}`;
       const res = await axios.get(API);
       setTheZork(res.data[0]);
     } catch (error) {
