@@ -1,8 +1,7 @@
 /* .paragraph-container {
   border: 3rem;
 } */
-.div-paragraph-container {
+.paragraph-container {
   max-height: 50vh;
-  overflow-y: scroll;
   margin-bottom: 50px;
 }
