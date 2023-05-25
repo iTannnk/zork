@@ -1,3 +1,6 @@
-.paragraph-container {
+/* .paragraph-container {
   border: 3rem;
+} */
+.div-paragraph-container {
+  border-radius: 3rem;
 }
