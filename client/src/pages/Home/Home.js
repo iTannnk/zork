@@ -19,7 +19,7 @@ export default function Home() {
   });
 
   async function getZork(param) {
-    const API = `http://localhost:8080/zorks?zork=${param}`;
+    const API = `https://zork-server.onrender.com/:8080/zorks?zork=${param}`;
     const res = await axios.get(API);
     console.log(res.data[0]);
     setZork(res.data[0]);
